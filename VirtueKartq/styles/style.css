@@ -1,0 +1,217 @@
+/**/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+
+body {background:pink;}
+
+
+
+
+
+
+
+
+
+
+/*Navbar starts here*/
+.navbar a  {
+text-decoration:none;
+color:orange;
+padding:0px;
+margin:0px;
+font-size:12px;
+font-family:COMIC SANS MS;
+}
+
+
+#frm1{
+	margin-top:20px;
+	margin-right:20px;
+}
+.navbar li:hover {color:black; font-weight:bolder;font-size:13px; text-decoration:none;}
+/*Navbar ends here*/
+.dropdown-menu a:{color:black; font-weight:bolder; text-decoration:none;}
+
+#content_area
+{
+	 padding-bottom: 20px;
+}
+
+/*Footer starts here*/
+.content-main {
+  height: 200vh;
+}
+
+.fh5co-bg {
+  background-size: auto;
+  background-position: bottom bottom;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.fh5co-bg {
+  background-size: auto;
+  background-position: bottom bottom;
+  position: relative;
+  height:280px;
+  width: 100%;
+  float: left;
+}
+.fh5co-bg .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.fh5co-bg-section {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+#fh5co-footer {
+  padding:15px;
+  clear: both;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-footer {
+    padding: 3em 0;
+  }
+}
+
+#fh5co-footer {
+  position: relative;
+}
+#fh5co-footer .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+#fh5co-footer h3,p {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-family:COMIC SANS MS;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+}
+#fh5co-footer .fh5co-footer-links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#fh5co-footer .fh5co-footer-links li:hover {
+  padding: 0;
+  margin: 0;
+  color:white;
+  font-weight:bolder; 
+ 
+  
+}
+
+
+#fh5co-footer .fh5co-footer-links li a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  font-family:COMIC SANS MS;
+}
+#fh5co-footer .fh5co-footer-links li a:hover {
+  text-decoration: underline;
+}
+#fh5co-footer .fh5co-widget {
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-footer .fh5co-widget {
+    text-align: left;
+  }
+}
+#fh5co-footer .fh5co-widget h3 {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  font-family:COMIC SANS MS;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#fh5co-footer .copyright .block {
+  display: block;
+}
+
+
+.btn-primary {
+  background: #F85A16;
+  color: #fff;
+  border: 2px solid #F85A16;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background: #f96c2f !important;
+  border-color: #f96c2f !important;
+}
+.btn-primary.btn-outline {
+  background: transparent;
+  color: #F85A16;
+  border: 1px solid #F85A16;
+}
+.btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
+  background: #F85A16;
+  color: purple;
+}
+/*Footer ends here*/
+
+#sc1
+{
+	height:500px;
+  width: 100%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

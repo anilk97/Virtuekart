@@ -1,0 +1,19 @@
+
+img{
+	margin:0;
+	padding:0;
+	border:none;
+}
+.demo a{ float:left; margin:0; padding:0; margin:5px 10px 5px 20px!important; margin:5px 10px 5px 10px; display:block; background:url(bg_tms.jpg) no-repeat; width:90px; height:90px;}
+.demo a img{ float:left; margin:0; padding:0; margin:9px 0 0 10px; background:url(bg_tms.jpg) no-repeat; width:70px; height:70px;}
+ul,li,dl,dt,dd{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.main_content_demo{
+	margin:0 auto;
+	padding:0;
+	width:900px;
+	display:block;
+}

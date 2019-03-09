@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Add a new Address</h2>
+  <form action="/action_page.php">
+    <div class="form-group" >
+      <label for="nm">Full name:</label>
+      <input type="text" class="form-control" id="nm" placeholder="Enter your name" name="name" autofocus required>
+    </div>
+	
+	<div class="form-group">
+      <label for="num">Contact number:</label>
+      <input type="number" class="form-control" id="num" placeholder="Enter you contact number" name="number"  minlength="10" maxlength="10"  autocomplete="on"  required>
+    </div>
+	
+	<div class="form-group">
+      <label for="pin">Pincode:</label>
+      <input type="number" class="form-control" id="pin" placeholder="Enter your pincode" name="pincode" minlength="6" maxlength="6" autocomplete="on" required>
+    </div>
+	
+	<div class="form-group">
+      <label for="flat">Flat,House no.,Building,Company,Apartment:</label>
+      <input type="text" class="form-control" id="flat" placeholder="Enter your House no." name="flat" required>
+    </div>
+
+	<div class="form-group">
+      <label for="Area">Area/colony:</label>
+      <input type="text" class="form-control" id="Area" placeholder="Enter your Area" name="colony" required>
+    </div>	
+	
+		<div class="form-group">
+      <label for="Land">Landmark:</label>
+      <input type="text" class="form-control" id="land" placeholder="E.g. near Bharti Chowk,Behind Laxmi Temple,etc." name="landmark" required>
+    </div>
+	
+		<div class="form-group">
+      <label for="tw">Town/City:</label>
+      <input type="text" class="form-control" id="tw" placeholder="Town/City" name="town" required>
+    </div>
+	
+	
+	
+    <div class="form-group">
+      <label for="st">State:</label>
+      <input type="password" class="form-control" id="st" placeholder="Enter your state" name="state" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
